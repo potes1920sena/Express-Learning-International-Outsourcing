@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat-Local</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<div class="navbar-header">
+        <h2>Comentarios</h2>
+</div>
+
+<body>
+    <div id="contenedor">
+        <div id="conversaciones"></div>
+        <input type="text" class="form-control" placeholder="usuario">
+        <input type="text" name="fecha" id="fecha" value="12:30 / " hidden>
+        <textarea class="form-control" placeholder="Mensaje" id="mensaje"></textarea>
+        <button class="btn btn-outline-info" onclick="escribir();">Enviar</button>
+    </div>
+    <audio id="audio" controls>
+        <source type="audio/mp3" src="tono.mp3">
+    </audio>
+</body>
+
+</html>
+

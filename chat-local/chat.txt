@@ -1,0 +1,1 @@
+<div id='margen'><p id='fecha-actual'> 12:30 / <span>oscar eduardo potes :</span></p><p>este sistema me encanta</p></div><br>

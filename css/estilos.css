@@ -1,0 +1,936 @@
+/*============================== ESTILOS DE ESCUELA INGLES ================================*/
+/*================================== EXPRESS LEARNING ====================================*/
+/*================================ ASESORIAS EDUCATIVAS ==================================*/
+/*================================= 13 AGOSTO DEL 2020 ====================================*/
+
+/***************************************** estilos generales**********************************************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: auto;
+  max-width: 1100px;
+}
+
+#title {
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin: auto;
+  transition:  4s;
+}
+
+.logo-modificado {
+  z-index: 1000;
+  position: fixed;
+  text-align: center;
+  align-content: center;
+  transform: perspective(400px)  rotateY(10deg);
+  box-shadow: 10px 9px 3px rgb(0, 0, 0, 0.5);
+  max-width: 200px;
+  left: 0rem;
+  top: 2.5rem;
+  opacity: 0.5;
+}
+
+.logo-aliados {
+  margin: auto;
+  width: 200px;
+  left: 2rem;
+  top: 0rem;
+  position: fixed;
+  transition:  4s;
+}
+
+.logo-aliados-modificado {
+  z-index: 1000;
+  position: fixed;
+  text-align: center;
+  align-content: center;
+  max-width: 200px;
+  left: 0rem;
+  top: 15rem;
+  opacity: 0.5;
+}
+
+.test {
+  margin: auto;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: #1900ff;
+}
+
+.slogan {
+  z-index: 2000;
+  margin-top: 0;
+  position: fixed;
+  top: 0.5rem;
+  right: 1rem;
+  max-width: 350px;
+  border: #e84c3d;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 30vh;
+  background: rgba(27, 27, 27, 0.5);
+  border-top: 5px solid rgb(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 0;
+}
+
+.footer a img {
+  float: left;
+  width: 35px;
+}
+
+.copyright {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: auto;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  background: crimson;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  grid-auto-rows: minmax(100px);
+  border-bottom: 3px solid #3de42e;
+  margin: 1rem;
+  text-align: justify;
+}
+
+  main {
+    max-width: 1000px;
+    height: 60vh;
+    margin-top: 2rem;
+    display: grid;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #3d4ee8;
+    grid-gap: 1rem;
+    grid-template-areas: repeat(5, 1fr);
+  }
+
+#main-mv {
+    max-width: 1000px;
+    height: 50vh;
+    margin-top: 0rem;
+    display: grid;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #3d4ee8;
+    grid-gap: 1rem;
+    grid-template-areas: repeat(2, 1fr);
+  }
+
+.sub-grillas {
+  margin: 2rem;
+  width: 90%;
+  height: 250px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.sub-grillas h3 {
+  margin: auto;
+  align-content: center;
+  color: whitesmoke;
+}
+
+/****************************************fin estilos generales*********************************************
+
+=========================================================================================
+
+*****************************************inicio de container**********************************************/
+
+.container-left {
+  position: fixed;
+  top: 25rem;
+  left: 1rem;
+  margin: auto;
+  width: 200px;
+  height: 50vh;
+}
+
+
+.container-fluid {
+  background: crimson;
+  z-index: 1000;
+  align-content: center;
+  flex-direction: column;
+  outline: none;
+  top: 0rem;
+  position: fixed;
+  right: 2rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  scroll-margin-bottom: 5px;
+  padding: 5px;
+  max-width: 1000px;
+}
+
+.container-fluid img {
+  width: 25px;
+  border-radius: 30px;
+  bottom: 5px;
+  transition: width 3s, height 3s, transform 3s;
+}
+
+.contenedor-boletin {
+  margin-bottom: 4rem;
+}
+
+
+/**************************************************fin de  los container***************************************************/
+
+/****************************************************Inicio de cajas******************************************************/
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4,
+.caja-5,
+.caja-6 {
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: justify;
+  border-bottom: 2px solid red;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+}
+
+.caja-2 {
+  align-content: center;
+  text-align: justify;
+}
+
+#cabecera-ini {
+  top: 0rem;
+  width: 100%;
+  color: rgb(61, 78, 232);
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+#cabecera {
+  top: 0rem;
+  width: 100%;
+  background: rgb(61, 78, 232);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+/*****************************************************fin de cajas********************************************************/
+
+/************************************************inicio estilos imagenes**************************************************/
+
+.img-ref {
+  z-index: 2000;
+  width: 350px;
+  position: relative;
+  left: 0rem;
+}
+
+.img-ref img {
+  width: 500px;
+  height: 400px;
+  transition: width 3s, height 3s, transform 2s;
+}
+
+#img-left {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  height: 30vh;
+}
+
+#img-left-b {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 250px;
+  height: 23vh;
+}
+
+#text-right{
+  width: 100%;
+  margin: 0rem;
+  margin-top: 0;
+}
+
+.grid img {
+  margin-top: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.caja-5 .grid img {
+  margin-top: 0;
+  width: 80%;
+  margin: auto;
+}
+
+#title img {
+  width: 100%;
+  height: 30vh;
+}
+
+#title #img-mv {
+  width: 70%;
+  margin: auto;
+}
+
+.logo-aliados img {
+  width: 100%;
+}
+
+/*************************************************fin estilos imagenes****************************************************/
+
+/*********************************************inicio estilos Informaciones*************************************************/
+
+.info-ref {
+  z-index: 1000;
+  text-align: center;
+  width: 33%;
+  float: left;
+  margin: auto;
+  position: relative;
+  top: 1rem;
+}
+
+.info-ref a {
+  color: #2c2c2a;
+}
+
+.info-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.info-cursos {
+  align-content: flex-start;
+}
+
+/**********************************************fin estilos Informaciones**************************************************
+
+======================================================================================================
+
+*********************************************** inicio de nav y navbar****************************************************/
+
+header nav {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  background: crimson;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 3px rgb(0, 0, 0, 0.5);
+  transition: all ease 0.5s;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li {
+  margin: auto;
+}
+
+header nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background: rgba(71, 92, 105, 0.5);
+}
+
+.navbar span {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  color: rgba(61, 92, 232);
+}
+
+nav a img {
+  float: left;
+  width: 25px;
+}
+
+/*********************************************** fin de nav y navbar*******************************************************
+
+======================================================================================================
+
+************************************************** inicio de menus*******************************************************/
+
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 3px rgb(0, 0, 0, 0.5);
+}
+
+.menu-fixed ul li a {
+  padding: 10px 20px;
+}
+
+.container-fluid-cambio {
+  background: crimson;
+  z-index: 1000;
+  align-content: center;
+  flex-direction: column;
+  outline: none;
+  top: 3rem;
+  position: fixed;
+  right: 0.3rem;
+  scroll-margin-bottom: 5px;
+  padding: 5px;
+  max-width: 350px;
+  min-height: 30px;
+  transition: 1s;
+  border-bottom-left-radius:  30px;
+  border-top-left-radius:  30px;
+}
+
+/*************************************************** fin de menus*******************************************************
+
+======================================================================================================
+
+************************************************** inicio de iframe*******************************************************/
+
+#iframe-chat {
+  z-index: 2000;
+  transform: perspective(400px)  rotateY(-10deg);
+  box-shadow: 10px 9px 3px rgb(0, 0, 0, 0.5);
+  position: fixed;
+  top: 13rem;
+  right: 1.5rem;
+  margin: auto;
+  width: 300px;
+  height: 450px;
+}
+
+/****************************************************fin de iframe********************************************************
+
+=======================================================================================================
+
+  ************************************************** inicio de mensaje******************************************************/
+.mensaje {
+  max-width: 350px;
+  position: fixed;
+  right: 2rem;
+  bottom: 5rem;
+  text-align: center;
+}
+
+.mensaje-2 {
+  max-width: 800px;
+  position: fixed;
+  left: 4rem;
+  bottom: 5rem;
+  text-align: center;
+}
+
+.mensajes span {
+  font-size: 15px;
+  color: #e84c3d;
+}
+
+.mensajes img {
+  width: 100%;
+}
+
+.opinion {
+  margin: 20px auto;
+}
+
+/**************************************************** fin de mensaje********************************************************
+
+
+========================================================================================================
+
+
+****************************************************INICIO CARROUSEL 3D *****************************************************/
+
+.botones {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  background-color: rgba(0,0, 0, .7);
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  color: #fff ;
+  box-shadow: 0 0 10px rgba(255, 255, 255, .6);
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.botones:hover {
+  cursor: pointer;
+  transform:  scale(1.2,1.2);
+}
+
+.atras {
+  left: 2%;
+  top:  calc(50% - 70px);
+
+}
+
+.adelante {
+  right: 2%;
+  top:  calc(50% - 70px);
+
+}
+
+
+
+.content-all {
+  width: 210px;
+  height: 300px;
+  margin: auto;
+  perspective: 600px;
+  position: relative;
+  margin-top: 250px;
+}
+
+.content-carrousel {
+  width: 100%;
+  position: absolute;
+  animation: rotar 200s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.content-carrousel figure {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+.content-carrousel figure:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(36deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(72deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(108deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(144deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(180deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(216deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(8) {
+  transform: rotateY(252deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(9) {
+  transform: rotateY(288deg) translateZ(330px);
+}
+.content-carrousel figure:nth-child(10) {
+  transform: rotateY(324deg) translateZ(330px);
+}
+
+.content-carrousel img {
+  width: 100%;
+}
+
+.content-carrousel img:hover {
+  transform: scale(1.2);
+  transition: all 600ms;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/*********************************************************** FIN CARROUSEL 3D **********************************************************
+
+=================================================================================================================
+
+*********************************************************** INIT TRANSITIONS *********************************************************/
+
+ul a {
+  width: 150px;
+  transition: transform 3s;
+}
+
+ul a:hover {
+  transform: translate(10px, 10px);
+}
+
+.img-ref img:hover {
+  width: 1000px;
+  height: 450px;
+  transform: translate(10px, 0);
+}
+
+.container-fluid img:hover {
+  width: 50px;
+  transform: translate(5px, 5px);
+}
+
+/*********************************************************** OUT TRANSITIONS **********************************************************
+
+=================================================================================================================
+
+************************************************(-INICIO DE RESPONSIVE <= 1360px--)*************************************************/
+
+@media screen and (max-width: 1360px) {
+
+  .caja-1,
+  .caja-2,
+  .caja-3,
+  .caja-4,
+  .caja-5,
+  .caja-6 {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+  }
+  .img-ref {
+    left: 1rem;
+    width: 450px;
+  }
+
+  .img-ref img {
+    width: 450px;
+  }
+
+  .img-ref img:hover {
+    width: 830px;
+    height: 500px;
+    transform: translate(10px, 0);
+  }
+
+  .info-ref {
+    width: 300px;
+  }
+
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 1300px--)*************************************************/
+
+@media screen and (max-width: 1300px) {
+
+  .wrap {
+    max-width: 1000px;
+  }
+
+  .ventana {
+    width: 70%;
+  }
+
+  .img-ref img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .info-ref {
+    width: 450px;
+  }
+
+  main {
+    max-width: 900px;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 1200px--)**************************************************/
+
+@media screen and (max-width: 1200px) {
+  .ventana {
+    width: 70%;
+  }
+
+  .caja-1,
+.caja-2,
+.caja-3,
+.caja-4,
+.caja-5,
+.caja-6 {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: justify;
+}
+
+  .img-ref img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .info-ref {
+    width: 400px;
+  }
+
+  .container-fluid-cambio {
+    position: fixed;
+    max-width: 55px;
+    min-height: 150px;
+    top: 35%;
+    right: 0.3rem;
+    scroll-margin-bottom: 5px;
+    padding: 20px;
+    border-bottom-left-radius:  30px;
+    border-top-left-radius:  30px;
+    transition: 0.3s;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 1100px--)**************************************************/
+
+@media screen and (max-width: 1100px) {
+ 
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4,
+.caja-5,
+.caja-6 {
+  width: 100%;
+  margin: auto;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.caja-1-c,
+.caja-2-c,
+.caja-3-c,
+.caja-4-c,
+.caja-5-c,
+.caja-6-c {
+  float: right;
+  width: 100%;
+  max-width: 500px;
+  text-align: justify;
+}
+
+  .ventana {
+    width: 80%;
+    left: 200px;
+  }
+
+  .img-ref img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .info-ref {
+    width: 400px;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 900px--)****************************************************/
+
+@media screen and (max-width: 900px) {
+
+  .nav {
+    z-index: 1000;
+    color: #fff;
+    background: steelblue;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .nav li .btn {
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  .ventana {
+    font-size: 15px;
+    width: 90%;
+    left: 10px;
+  }
+
+  .img-ref img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .img-ref img:hover {
+    width: 700px;
+    height: 500px;
+    transform: translate(10px, 0);
+  }
+
+  .info-ref {
+    width: 350px;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 850px--)*****************************************************/
+
+@media screen and (max-width: 850px) {
+
+  #img-left {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 20vh;
+  }
+
+  #img-left-b {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 10vh;
+  }
+
+  #text-right{
+    float: left;
+    width: 100%;
+    margin: 1rem;
+    margin-top: 0;
+    font-size: large;
+  }
+
+  .ventana {
+    width: 90%;
+    left: 30px;
+  }
+
+  .img-ref img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .info-ref {
+    width: 300px;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 700px--)*****************************************************/
+
+@media screen and (max-width: 700px) {
+
+  iframe {
+    bottom: 20px;
+    margin: auto;
+  }
+
+  .wrap {
+    float: left;
+    width: 100%;
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 600px--)******************************************************/
+
+@media screen and (max-width: 600px) {
+  .products-list .product-item {
+    width: 47.5%;
+  }
+
+  .products-list .product-item:nth-child(3n + 1) {
+    margin-left: 4.5%;
+  }
+
+  .products-list .product-item:nth-child(2n + 1) {
+    margin-left: 0px;
+  }
+}
+
+/************************************************(-INICIO DE RESPONSIVE <= 350px--)*******************************************************/
+
+@media screen and (max-width: 350px) {
+  .img-ref {
+    z-index: 3000;
+    width: 50px;
+    position: fixed;
+    bottom: 1rem;
+  }
+
+  .img-ref img {
+    width: 50px;
+    height: 50px;
+    left: 0;
+    transition: width 3s, height 3s, transform 2s;
+  }
+
+  .img-ref img:hover {
+    width: 300px;
+    height: 300px;
+    transform: translate(5px, 0);
+  }
+
+  .ventana {
+    left: 0;
+    top: 5rem;
+  }
+}
